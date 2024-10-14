@@ -4,9 +4,9 @@ import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo_img.png';
-import logotext from './logo/logo-text-black.png';
+import logotext from './logo/logo_img.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/hero.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ai.png';
