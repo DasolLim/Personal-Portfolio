@@ -38,10 +38,10 @@ export const navLinks = [
     id: 'projects',
     title: 'Projects',
   },
-  {
-    id: 'contact',
-    title: 'Contact',
-  },
+  // {
+  //   id: 'contact',
+  //   title: 'Contact',
+  // },
 ];
 
 const services = [
@@ -54,11 +54,11 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'AI Developer',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Quality Assurance',
     icon: prototyping,
   },
 ];
@@ -124,40 +124,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Sterilization Technician',
+    company_name: 'Wonder West Orthodontics',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'June 2021 - Aug 2021',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Dental Receptionist',
+    company_name: 'Wonder West Orthodontics',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2022 - Aug 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'C Software Developer',
+    company_name: 'Sunstang Solar Car Project',
     icon: kelhel,
     iconBg: '#333333',
     date: 'May 2022 - Oct 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Software Developer',
+    company_name: 'Elkor Technologies Inc',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'May 2023 - Sept 2023',
   },
+  {
+    title: 'Software Developer',
+    company_name: 'IBM X WCS',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Oct 2023 - Feb 2024',
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Elkor Technologies',
+    description: 'Full stack web development for Elkors new website',
     tags: [
       {
         name: 'react',
@@ -173,14 +180,13 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    demo: 'https://www.elkor.net/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Stock Prediction',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'AI-powered stock prices prediction with Twitter sentimental analysis',
     tags: [
       {
         name: 'react',
@@ -196,13 +202,12 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/DasolLim/Twitter-Finance-Project',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'CHEER Website',
+    description: 'A community-driven platform for non profitable organization that supports families and friends of individuals with intellectual disabilitie',
     tags: [
       {
         name: 'nextjs',
@@ -218,13 +223,13 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/ShaimaaAliECE/se3350-project-group22',
+    demo: 'https://se3350-project-group22-u6a2qlor5a-uk.a.run.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Superhero Hub',
+    description: 'A dynamic platform tp search for superheroes, create and save personalized lists, and share reviews',
     tags: [
       {
         name: 'nextjs',
@@ -240,14 +245,13 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/DasolLim/MERN_Project',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Graphical Sorting',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'A visual demonstration of selection and merge sorting method',
     tags: [
       {
         name: 'nextjs',
@@ -263,8 +267,7 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/DasolLim/SortingGraphicalApplication_Project',
   },
 ];
 
