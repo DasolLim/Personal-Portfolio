@@ -87,7 +87,7 @@ const Hero = () => {
             className="absolute bottom-10 ml-[52vw] h-[45vw]
             sm:ml-[57vw] md:ml-[62vw] lg:ml-[65vw] xl:ml-[67vw]
             sm:h-[45vh] md:h-[55vh] lg:h-[65vh] xl:h-[75vh]"
-            src={'src/assets/personal/hero.png'}
+            src={shaq}
             alt="shaquille"
           />
         </div>
