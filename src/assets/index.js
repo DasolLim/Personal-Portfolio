@@ -40,16 +40,17 @@ import git from './tech/git.png';
 import figma from './tech/selenium.png';
 import docker from './tech/docker.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import elkor from './company/elkor.png';
+import sunstang from './company/sunstang.png';
+import uwo from './company/uwo.png';
+import wcs from './company/wcs.png';
+import wec from './company/wec.png';
 
 import komikult from './projects/elkor.png';
 import leaderboard from './projects/wcs.png';
 import math from './projects/cheer.png';
 import movie from './projects/mern.png';
-import nyeusi from './projects/sorting.png';
+import nyeusi from './projects/formfixer.png';
 import space from './projects/space-hub.png';
 
 export {
@@ -94,8 +95,9 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  elkor,
+  uwo,
+  wcs,
+  wec,
+  sunstang
 };

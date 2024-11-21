@@ -22,11 +22,11 @@ import {
   math,
   movie,
   nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  elkor,
+  sunstang,
+  uwo,
+  wcs,
+  wec
 } from '../assets';
 
 export const navLinks = [
@@ -124,39 +124,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Sterilization Technician',
-    company_name: 'Wonder West Orthodontics',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'June 2021 - Aug 2021',
-  },
-  {
-    title: 'Dental Receptionist',
-    company_name: 'Wonder West Orthodontics',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'May 2022 - Aug 2022',
-  },
-  {
     title: 'C Software Developer',
     company_name: 'Sunstang Solar Car Project',
-    icon: kelhel,
+    icon: sunstang,
     iconBg: '#333333',
     date: 'May 2022 - Oct 2022',
   },
   {
     title: 'Software Developer',
     company_name: 'Elkor Technologies Inc',
-    icon: dcc,
+    icon: elkor,
     iconBg: '#333333',
     date: 'May 2023 - Sept 2023',
   },
   {
     title: 'Software Developer',
     company_name: 'IBM X WCS',
-    icon: dcc,
+    icon: wcs,
     iconBg: '#333333',
     date: 'Oct 2023 - Feb 2024',
+  },
+  {
+    title: 'AI Engineer',
+    company_name: 'Western Capstone Project',
+    icon: uwo,
+    iconBg: '#333333',
+    date: 'Sept 2024 - Nov 2024',
+  },
+  {
+    title: 'Game Developer',
+    company_name: 'Western Engineering Competition',
+    icon: wec,
+    iconBg: '#333333',
+    date: 'Nov 2024',
   }
 ];
 
@@ -206,6 +206,28 @@ const projects = [
   },
   {
     id: 'project-3',
+    name: 'FormFixer.AI',
+    description:
+      'AI powered fitness training app',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: nyeusi,
+    repo: 'https://github.com/DasolLim/FormFixer.AI',
+  },
+  {
+    id: 'project-4',
     name: 'CHEER Website',
     description: 'A community-driven platform for non profitable organization that supports families and friends of individuals with intellectual disabilitie',
     tags: [
@@ -227,7 +249,7 @@ const projects = [
     demo: 'https://se3350-project-group22-u6a2qlor5a-uk.a.run.app/',
   },
   {
-    id: 'project-4',
+    id: 'project-5',
     name: 'Superhero Hub',
     description: 'A dynamic platform tp search for superheroes, create and save personalized lists, and share reviews',
     tags: [
@@ -246,29 +268,7 @@ const projects = [
     ],
     image: movie,
     repo: 'https://github.com/DasolLim/MERN_Project',
-  },
-  {
-    id: 'project-5',
-    name: 'Graphical Sorting',
-    description:
-      'A visual demonstration of selection and merge sorting method',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/DasolLim/SortingGraphicalApplication_Project',
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
